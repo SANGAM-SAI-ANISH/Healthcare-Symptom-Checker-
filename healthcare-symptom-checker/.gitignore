@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+
+# Environment files
+.env
+
+# Database / local query history
+*.db
+symptom_queries.json
+
+# Build output
+frontend/dist/
+dist/
+build/
+out/
+.next/
+
+# Editor files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log

@@ -1,0 +1,11 @@
+{
+  "name": "healthcare-symptom-checker-workspace",
+  "private": true,
+  "description": "Runs scripts in healthcare-symptom-checker/ — open that folder in your editor for the full app.",
+  "scripts": {
+    "install:all": "npm install --prefix healthcare-symptom-checker/backend && npm install --prefix healthcare-symptom-checker/frontend",
+    "start:backend": "npm start --prefix healthcare-symptom-checker/backend",
+    "start:frontend": "npm run dev --prefix healthcare-symptom-checker/frontend",
+    "dev": "npx --yes concurrently \"npm run start:backend\" \"npm run start:frontend\""
+  }
+}
